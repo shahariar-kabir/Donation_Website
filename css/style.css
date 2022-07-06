@@ -117,12 +117,22 @@ h1 {
 .email-field {
   background-color: rgb(255, 244, 214);
   padding: 40px 80px 40px;
+ 
+}
+.email-field a{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 9.9px 20px;
 }
 .email-input {
   border: none;
-  padding: 11px 40px 10px 30px;
+  padding: 13px 40px 10px 30px;
   background-color: rgb(229, 229, 229);
+  margin-right: -5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
+
 
 footer{
   margin: 0;
