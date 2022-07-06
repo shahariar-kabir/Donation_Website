@@ -12,7 +12,7 @@ h1 {
   background-size: cover;
   height: 100vh;
 }
-.top-banner p{
+.top-banner p {
   margin-bottom: 50px;
 }
 .top-banner {
@@ -28,68 +28,114 @@ h1 {
   padding: 10px 20px;
   border-radius: 5px;
 }
-.donete{
-
-}
 .donate-today {
-  margin: 15%;
+  margin: 10% 20% 10%;
   text-align: center;
-} 
-.donate-today p{
+}
+.donate-today p {
   margin-bottom: 20px;
 }
 .flexible-cont {
   display: flex;
 }
-.list-item{
-margin: 5% 20%;
+.list-item {
+  margin: 5% 20%;
 }
-.list-item a{
-text-decoration: none;
+.list-item a {
+  text-decoration: none;
+}
+.taka {
+  background-color: rgb(200, 200, 200);
+  color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  margin: 15px 15px;
+  font-weight: 700;
+}
 
-}
-.taka{
-    background-color: rgb(200, 200, 200) ;
-    color: white;
-    padding: 20px 20px;
-    border-radius: 5px;
-    margin: 15px 15px;
-}
-
-#amount-box{
+#amount-box {
   border: none;
-  border-bottom:2px solid grey;
+  border-bottom: 2px solid grey;
   padding: 10px;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
   color: rgb(114, 114, 154);
   align-items: center;
   width: 400px;
   text-align: center;
 }
-#color-taka-box{
-  color:rgb(255, 89, 89) ;
+#color-taka-box {
+  color: rgb(255, 89, 89);
   background-color: rgb(255, 238, 238);
   border: 2px solid rgb(255, 89, 89);
 }
-.main-plan-box{
-margin:5% 20% 5% 20%;
+.main-plan-box {
+  margin: 5% 20% 5% 20%;
 }
-.plan-box{
- background-color: aquamarine;
- padding: 20px;
- margin-left: 20px;
- width:300px;
- height:300px;
- border-radius: 5px;
-
+.plan-box {
+  background-color: aquamarine;
+  padding: 20px;
+  margin-left: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
 }
-#color-one{
-  background-color: rgb(224, 255, 224) ;
+#color-one {
+  background-color: rgb(224, 255, 224);
 }
-#color-two{
+#color-two {
   background-color: rgb(253, 243, 243);
 }
-#color-three{
+#color-three {
   background-color: rgb(194, 239, 255);
 }
 
+.harmony {
+  margin: 10% 20% 10%;
+}
+.half-width {
+  width: 50%;
+  padding: 20px;
+}
+.half-width img {
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 20px;
+}
+.half-width p {
+  margin-bottom: 50px;
+}
+.subscribe {
+  margin: 10% 30% 10%;
+  text-align: center;
+}
+.email-banner p {
+  margin-bottom: 50px;
+}
+.email-field {
+  background-color: rgb(255, 244, 214);
+  padding: 40px 80px 40px;
+}
+.email-input {
+  border: none;
+  padding: 11px 40px 10px 30px;
+  background-color: rgb(229, 229, 229);
+}
+
+footer{
+  margin: 0;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+footer h1{
+  font-family: 'Lobster', cursive;
+  font-weight: 200;
+  color: tomato;
+}
+footer>div>p{
+  margin: 0;
+  padding-bottom: 30px;
+}
