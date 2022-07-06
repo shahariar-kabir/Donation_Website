@@ -3,3 +3,25 @@ body{
     margin: 0;
     padding: 0;
 }
+.top-section{
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+.top-banner{
+    color: white;
+    text-align: center;
+    padding: 200px 20%;
+}
+h1{
+    font-size: 50px;
+}
+.button{
+text-decoration: none;
+color: white;
+background-color: #ff5959;
+padding: 10px 20px;
+border-radius: 5px;
+}
